@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        />
+        <title>A Class</title>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="logo">ARJUNO</div>
+                <div class="menu">
+                    <a href="#home">HOME</a>
+                    <a href="#jadwal">JADWAL</a>
+                    <a href="#pengumuman">PENGUMUMAN</a>
+                    <a href="#contact">CONTACT</a>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <section class="hero-section" id="home">
+                <p>HELLO, <span>EVERYONE!</span></p>
+                <h1>WELLCOME</h1>
+                <p>TO CLASS A MTsN 2 NGAWI</p>
+            </section>
+
+            <section class="jadwal" id="jadwal">
+                <h2 class="judul">Jadwal</h2>
+                <div class="jadwal-container">
+                    <div class="jadwal-piket">
+                        <h2>Piket</h2>
+                        <div class="card" data-hari="senin">
+                            <h3>Senin</h3>
+                            <p>DJENAR</p>
+                            <p>ILHAM</p>
+                            <p>VELLY</p>
+                            <p>DESTYA</p>
+                        </div>
+                        <div class="card" data-hari="selasa">
+                            <h3>Selasa</h3>
+                            <p>DHEVIN</p>
+                            <p>IMRON</p>
+                            <p>FADILA</p>
+                            <p>ROHMA</p>
+                        </div>
+                        <div class="card" data-hari="rabu">
+                            <h3>Rabu</h3>
+                            <p>ALLIF</p>
+                            <p>DEO</p>
+                            <p>IRMA</p>
+                            <p>RYSZA</p>
+                        </div>
+                        <div class="card" data-hari="kamis">
+                            <h3>Kamis</h3>
+                            <p>REFANO</p>
+                            <p>MAHIRA</p>
+                            <p>LUTHFI</p>
+                            <p>DHEFIVA</p>
+                        </div>
+                        <div class="card" data-hari="jumat">
+                            <h3>Jumat</h3>
+                            <p>DAVVA</p>
+                            <p>ULIN</p>
+                            <p>AVIKA</p>
+                            <p>IZZATUL</p>
+                        </div>
+                        <div class="card" data-hari="sabtu">
+                            <h3>Sabtu</h3>
+                            <p>LIBUR BOSS...</p>
+                        </div>
+                        <div class="card" data-hari="minggu">
+                            <h3>Minggu</h3>
+                            <p>LIBUR BOSS...</p>
+                        </div>
+                    </div>
+                    <div class="jadwal-pelajaran">
+                        <h2>Pelajaran</h2>
+                        <div class="card" data-hari="senin">
+                            <h3>Senin</h3>
+                            <p>FIKIH</p>
+                            <p>PJOK</p>
+                            <p>AKIDAH</p>
+                            <p>PKN</p>
+                        </div>
+                        <div class="card" data-hari="selasa">
+                            <h3>Selasa</h3>
+                            <p>B.INDO</p>
+                            <p>PRAKARYA</p>
+                            <p>B.INGGRIS</p>
+                            <p>INFORMATIKA</p>
+                        </div>
+                        <div class="card" data-hari="rabu">
+                            <h3>Rabu</h3>
+                            <p>MTK</p>
+                            <p>IPS</p>
+                            <p>QURAN H</p>
+                            <p>B.INDO</p>
+                        </div>
+                        <div class="card" data-hari="kamis">
+                            <h3>Kamis</h3>
+                            <p>SKI</p>
+                            <p>MTK</p>
+                            <p>B.INGGRIS</p>
+                            <p>BK</p>
+                            <p>IPA</p>
+                        </div>
+                        <div class="card" data-hari="jumat">
+                            <h3>Jumat</h3>
+                            <p>IPA</p>
+                            <p>B.JAWA</p>
+                            <p>B.ARAB</p>
+                            <p>---</p>
+                        </div>
+                        <div class="card" data-hari="sabtu">
+                            <h3>Sabtu</h3>
+                            <p>LIBUR BOSS...</p>
+                        </div>
+                        <div class="card" data-hari="minggu">
+                            <h3>Minggu</h3>
+                            <p>LIBUR BOSS...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pengumuman" id="pengumuman">
+                <h2 class="judul">Pengumuman</h2>
+                <div class="card">
+                    <h3 class="card-p">GW HAMZ ANJAYY</h3>
+                    <h3 class="card-p">
+                        WEB INI DIBUAT PADA TANGGAL 12 AGUSTUS 2025
+                    </h3>
+                    <h3 class="card-p">
+                        WEB INI SELESAI DIBUAT PADA TANGGAL 15 AGUSTUS 2025
+                    </h3>
+                </div>
+            </section>
+
+            <section class="contact" id="contact">
+                <h2 class="judul">Contact</h2>
+                <form id="form" method="POST">
+                    <input
+                        type="text"
+                        name="Nama"
+                        placeholder="Nama Kamu"
+                        required
+                    />
+                    <textarea
+                        name="Pesan"
+                        placeholder="Massukkan Pesanmu"
+                        cols="5"
+                        rows="5"
+                        required
+                    ></textarea>
+                    <input type="submit" value="KIRIM" />
+                </form>
+
+                <p id="status"></p>
+            </section>
+        </div>
+
+        <footer>
+            <div class="copy">
+                <p>&copy; CLASS A 2023-2026</p>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
